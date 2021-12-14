@@ -16,8 +16,8 @@ class ViewController: UIViewController {
 //	Variable for the index of the user selected subview.
 	var indexOfSelectedSubview: Int?
 	var imagesToShare = [UIImage]()
-
-//	Stack views composing the central view.
+	
+	//	Stack views composing the central view.
 	@IBOutlet var upperStackView: UIStackView!
 	@IBOutlet var lowerStackView: UIStackView!
 // The tap gesture recognizer of the standard layout view.
@@ -28,7 +28,6 @@ class ViewController: UIViewController {
 		// Checks if the tap is coming from an ImageView.
 		guard let imageView = selectingStandardLayoutTapGesture.view as? UIImageView
 		else {return}
-		
 		updateAndstoreDetailOf(selectedLayout: imageView)
 		
 	}

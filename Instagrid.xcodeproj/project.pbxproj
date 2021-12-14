@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0992364F2767B1DF004C6B96 /* Thirsty Soft W01 Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0992364D2767B1DF004C6B96 /* Thirsty Soft W01 Regular.otf */; };
+		099236502767B1DF004C6B96 /* Delm-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0992364E2767B1DF004C6B96 /* Delm-Medium.ttf */; };
 		09F684E62735326A00AAF199 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F684E52735326A00AAF199 /* AppDelegate.swift */; };
 		09F684E82735326A00AAF199 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F684E72735326A00AAF199 /* SceneDelegate.swift */; };
 		09F684EA2735326A00AAF199 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F684E92735326A00AAF199 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0992364D2767B1DF004C6B96 /* Thirsty Soft W01 Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Thirsty Soft W01 Regular.otf"; sourceTree = "<group>"; };
+		0992364E2767B1DF004C6B96 /* Delm-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Delm-Medium.ttf"; sourceTree = "<group>"; };
 		09F684E22735326A00AAF199 /* Instagrid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instagrid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09F684E52735326A00AAF199 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		09F684E72735326A00AAF199 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +63,8 @@
 				09F684E52735326A00AAF199 /* AppDelegate.swift */,
 				09F684E72735326A00AAF199 /* SceneDelegate.swift */,
 				09F684E92735326A00AAF199 /* ViewController.swift */,
+				0992364E2767B1DF004C6B96 /* Delm-Medium.ttf */,
+				0992364D2767B1DF004C6B96 /* Thirsty Soft W01 Regular.otf */,
 				09F684EB2735326A00AAF199 /* Main.storyboard */,
 				09F684EE2735326B00AAF199 /* Assets.xcassets */,
 				09F684F02735326B00AAF199 /* LaunchScreen.storyboard */,
@@ -125,6 +131,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0992364F2767B1DF004C6B96 /* Thirsty Soft W01 Regular.otf in Resources */,
+				099236502767B1DF004C6B96 /* Delm-Medium.ttf in Resources */,
 				09F684F22735326B00AAF199 /* LaunchScreen.storyboard in Resources */,
 				09F684EF2735326B00AAF199 /* Assets.xcassets in Resources */,
 				09F684ED2735326A00AAF199 /* Main.storyboard in Resources */,
@@ -299,7 +307,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,7 +338,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
